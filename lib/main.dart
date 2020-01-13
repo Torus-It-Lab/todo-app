@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:todo/src/pages/tags.dart';
 import 'package:todo/src/theme.dart';
 
+import 'src/pages/task.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -12,9 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'TODO',
       theme: todoTheme,
-      initialRoute: '/',
+      initialRoute: '/task',
       routes: {        
         '/' : (BuildContext context) => TagsScreen(),        
+        '/task' : (BuildContext context) => TaskScreen(),
       },
 
     );

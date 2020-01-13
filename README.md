@@ -1,6 +1,6 @@
 # TODO
 
-As a software engineer why paid for and app if i build one in a way and flavor that i want
+As a software engineer why paid for and app if i can build one in a way and flavors that i want
 
 ## Screens
 
